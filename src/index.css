@@ -44,7 +44,7 @@ a {
 
 .home .left {
   background-color: var(--bg-color);
-  width: 620px;
+  width: 100%;
   text-align: center;
   align-items: center;
   padding: 30px;
