@@ -104,8 +104,9 @@ a {
 
 /* Experience Section */
 
-.ex {
+.container {
   width: 900px;
+  text-align: center;
 }
 
 .ex-items {
