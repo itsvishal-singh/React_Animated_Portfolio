@@ -3,7 +3,8 @@ import { FaInstagram } from "react-icons/fa";
 // import { CiFacebook } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
 // import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaGithubSquare } from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 
 const Contact = () => {
@@ -33,6 +34,13 @@ const Contact = () => {
           >
             <CiLinkedin className="icons" />
           </a>
+          <a
+            href="https://wa.me/+918757001015"
+            target="_blank"
+            className="items"
+          >
+            <FaWhatsapp className="icons" />
+          </a>
           {/* <a href="https://www.google.com" target="_blank" className="items">
             <FaSquareXTwitter className="icons" />
           </a> */}
@@ -41,7 +49,7 @@ const Contact = () => {
             target="_blank"
             className="items"
           >
-            <FaGithubSquare className="icons" />
+            <FiGithub className="icons" />
           </a>
           <a
             href="mailto:vishal.200087@gmail.com"
