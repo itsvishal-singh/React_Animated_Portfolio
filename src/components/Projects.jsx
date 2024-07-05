@@ -4,9 +4,9 @@ import project from "./data/projects.json";
 const Projects = () => {
   return (
     <>
-      <div className="container projects my-3" id="projects">
+      <div className="container projects" id="projects">
         <h1>PROJECTS</h1>
-        <div className="row d-flex justify-content-center align-content-center">
+        <div className="d-flex justify-content-center align-content-center">
           {project.map((data) => (
             <>
               <div
